@@ -33,8 +33,8 @@ new Vue({
               }else{
                 this.urlSearch = 'https://'+this.urlSearch;
                 url=this.urlSearch;
-                return url;
               }
+              return url;
             }else{
               alert("Адрес неккоректный")
             }
